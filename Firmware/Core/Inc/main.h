@@ -59,18 +59,10 @@ void Error_Handler(void);
 /* Private defines -----------------------------------------------------------*/
 #define Driver_EN_Pin GPIO_PIN_0
 #define Driver_EN_GPIO_Port GPIOB
+#define Driver_STP_Pin GPIO_PIN_1
+#define Driver_STP_GPIO_Port GPIOB
 #define Driver_DIR_Pin GPIO_PIN_2
 #define Driver_DIR_GPIO_Port GPIOB
-#define Driver_Diag_Pin GPIO_PIN_3
-#define Driver_Diag_GPIO_Port GPIOB
-#define KEY_1_Pin GPIO_PIN_4
-#define KEY_1_GPIO_Port GPIOB
-#define KEY_2_Pin GPIO_PIN_5
-#define KEY_2_GPIO_Port GPIOB
-#define KEY_3_Pin GPIO_PIN_6
-#define KEY_3_GPIO_Port GPIOB
-#define LED_Pin GPIO_PIN_7
-#define LED_GPIO_Port GPIOB
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */
