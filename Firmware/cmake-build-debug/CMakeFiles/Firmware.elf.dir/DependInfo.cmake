@@ -20,6 +20,8 @@ set(CMAKE_TARGET_DEFINITIONS_ASM
 
 # The include file search paths:
 set(CMAKE_ASM_TARGET_INCLUDE_PATH
+  "E:/Kicad_Projects/TMC2209_TestBoard/Firmware/UserAPP"
+  "E:/Kicad_Projects/TMC2209_TestBoard/Firmware/HardWare/TMC2209"
   "E:/Kicad_Projects/TMC2209_TestBoard/Firmware/Core/Inc"
   "E:/Kicad_Projects/TMC2209_TestBoard/Firmware/Drivers/STM32F1xx_HAL_Driver/Inc"
   "E:/Kicad_Projects/TMC2209_TestBoard/Firmware/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"
@@ -35,6 +37,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "E:/Kicad_Projects/TMC2209_TestBoard/Firmware/Core/Src/stm32f1xx_it.c" "CMakeFiles/Firmware.elf.dir/Core/Src/stm32f1xx_it.c.obj" "gcc" "CMakeFiles/Firmware.elf.dir/Core/Src/stm32f1xx_it.c.obj.d"
   "E:/Kicad_Projects/TMC2209_TestBoard/Firmware/Core/Src/syscalls.c" "CMakeFiles/Firmware.elf.dir/Core/Src/syscalls.c.obj" "gcc" "CMakeFiles/Firmware.elf.dir/Core/Src/syscalls.c.obj.d"
   "E:/Kicad_Projects/TMC2209_TestBoard/Firmware/Core/Src/system_stm32f1xx.c" "CMakeFiles/Firmware.elf.dir/Core/Src/system_stm32f1xx.c.obj" "gcc" "CMakeFiles/Firmware.elf.dir/Core/Src/system_stm32f1xx.c.obj.d"
+  "E:/Kicad_Projects/TMC2209_TestBoard/Firmware/Core/Src/usart.c" "CMakeFiles/Firmware.elf.dir/Core/Src/usart.c.obj" "gcc" "CMakeFiles/Firmware.elf.dir/Core/Src/usart.c.obj.d"
+  "E:/Kicad_Projects/TMC2209_TestBoard/Firmware/Core/Src/usb.c" "CMakeFiles/Firmware.elf.dir/Core/Src/usb.c.obj" "gcc" "CMakeFiles/Firmware.elf.dir/Core/Src/usb.c.obj.d"
   "E:/Kicad_Projects/TMC2209_TestBoard/Firmware/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c" "CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj" "gcc" "CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj.d"
   "E:/Kicad_Projects/TMC2209_TestBoard/Firmware/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c" "CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj" "gcc" "CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj.d"
   "E:/Kicad_Projects/TMC2209_TestBoard/Firmware/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c" "CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj" "gcc" "CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj.d"
@@ -43,11 +47,17 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "E:/Kicad_Projects/TMC2209_TestBoard/Firmware/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c" "CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj" "gcc" "CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj.d"
   "E:/Kicad_Projects/TMC2209_TestBoard/Firmware/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c" "CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj" "gcc" "CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj.d"
   "E:/Kicad_Projects/TMC2209_TestBoard/Firmware/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c" "CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj" "gcc" "CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj.d"
+  "E:/Kicad_Projects/TMC2209_TestBoard/Firmware/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c" "CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.obj" "gcc" "CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.obj.d"
+  "E:/Kicad_Projects/TMC2209_TestBoard/Firmware/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c" "CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c.obj" "gcc" "CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c.obj.d"
   "E:/Kicad_Projects/TMC2209_TestBoard/Firmware/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c" "CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj" "gcc" "CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj.d"
   "E:/Kicad_Projects/TMC2209_TestBoard/Firmware/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c" "CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj" "gcc" "CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj.d"
   "E:/Kicad_Projects/TMC2209_TestBoard/Firmware/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c" "CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj" "gcc" "CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj.d"
   "E:/Kicad_Projects/TMC2209_TestBoard/Firmware/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c" "CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj" "gcc" "CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj.d"
   "E:/Kicad_Projects/TMC2209_TestBoard/Firmware/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c" "CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj" "gcc" "CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj.d"
+  "E:/Kicad_Projects/TMC2209_TestBoard/Firmware/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c" "CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj" "gcc" "CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj.d"
+  "E:/Kicad_Projects/TMC2209_TestBoard/Firmware/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c" "CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.obj" "gcc" "CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.obj.d"
+  "E:/Kicad_Projects/TMC2209_TestBoard/Firmware/HardWare/TMC2209/Driver.cpp" "CMakeFiles/Firmware.elf.dir/HardWare/TMC2209/Driver.cpp.obj" "gcc" "CMakeFiles/Firmware.elf.dir/HardWare/TMC2209/Driver.cpp.obj.d"
+  "E:/Kicad_Projects/TMC2209_TestBoard/Firmware/UserAPP/UserAPP.cpp" "CMakeFiles/Firmware.elf.dir/UserAPP/UserAPP.cpp.obj" "gcc" "CMakeFiles/Firmware.elf.dir/UserAPP/UserAPP.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

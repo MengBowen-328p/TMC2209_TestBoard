@@ -286,6 +286,22 @@
 			"value" : "E:/Program Files/Clion/CLion 2023.1.4/bin/cmake/win/x64/bin/ctest.exe"
 		},
 		{
+			"name" : "CMAKE_CXX_COMPILER",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "CXX compiler"
+				}
+			],
+			"type" : "STRING",
+			"value" : "E:/Program Files/STM32CubeMX/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-g++.exe"
+		},
+		{
 			"name" : "CMAKE_CXX_COMPILER_AR",
 			"properties" : 
 			[
@@ -396,6 +412,22 @@
 			],
 			"type" : "STRING",
 			"value" : "-O2 -g -DNDEBUG"
+		},
+		{
+			"name" : "CMAKE_C_COMPILER",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "C compiler"
+				}
+			],
+			"type" : "STRING",
+			"value" : "E:/Program Files/STM32CubeMX/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc.exe"
 		},
 		{
 			"name" : "CMAKE_C_COMPILER_AR",
@@ -523,7 +555,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "E:/Program Files/Clion/CLion 2023.1.4/bin/mingw/bin/dlltool.exe"
+			"value" : "E:/MSYS2_X64/ucrt64/bin/dlltool.exe"
 		},
 		{
 			"name" : "CMAKE_EXECUTABLE_FORMAT",
@@ -787,11 +819,11 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "make program"
+					"value" : "Path to a program."
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "E:/Program Files/Clion/CLion 2023.1.4/bin/mingw/bin/mingw32-make.exe"
+			"value" : "E:/MSYS2_X64/ucrt64/bin/mingw32-make.exe"
 		},
 		{
 			"name" : "CMAKE_MODULE_LINKER_FLAGS",

@@ -11,6 +11,10 @@ file(REMOVE_RECURSE
   "CMakeFiles/Firmware.elf.dir/Core/Src/syscalls.c.obj.d"
   "CMakeFiles/Firmware.elf.dir/Core/Src/system_stm32f1xx.c.obj"
   "CMakeFiles/Firmware.elf.dir/Core/Src/system_stm32f1xx.c.obj.d"
+  "CMakeFiles/Firmware.elf.dir/Core/Src/usart.c.obj"
+  "CMakeFiles/Firmware.elf.dir/Core/Src/usart.c.obj.d"
+  "CMakeFiles/Firmware.elf.dir/Core/Src/usb.c.obj"
+  "CMakeFiles/Firmware.elf.dir/Core/Src/usb.c.obj.d"
   "CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj"
   "CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj.d"
   "CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj"
@@ -27,6 +31,10 @@ file(REMOVE_RECURSE
   "CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj.d"
   "CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj"
   "CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj.d"
+  "CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.obj"
+  "CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.obj.d"
+  "CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c.obj"
+  "CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c.obj.d"
   "CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj"
   "CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj.d"
   "CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj"
@@ -37,6 +45,14 @@ file(REMOVE_RECURSE
   "CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj.d"
   "CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj"
   "CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj.d"
+  "CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj"
+  "CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj.d"
+  "CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.obj"
+  "CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.obj.d"
+  "CMakeFiles/Firmware.elf.dir/HardWare/TMC2209/Driver.cpp.obj"
+  "CMakeFiles/Firmware.elf.dir/HardWare/TMC2209/Driver.cpp.obj.d"
+  "CMakeFiles/Firmware.elf.dir/UserAPP/UserAPP.cpp.obj"
+  "CMakeFiles/Firmware.elf.dir/UserAPP/UserAPP.cpp.obj.d"
   "CMakeFiles/Firmware.elf.dir/startup/startup_stm32f103x6.s.obj"
   "Firmware.elf"
   "Firmware.elf.manifest"
@@ -44,6 +60,6 @@ file(REMOVE_RECURSE
 )
 
 # Per-language clean rules from dependency scanning.
-foreach(lang ASM C)
+foreach(lang ASM C CXX)
   include(CMakeFiles/Firmware.elf.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()

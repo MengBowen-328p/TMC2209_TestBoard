@@ -31,5 +31,11 @@ CMakeFiles/Firmware.elf.dir/Core/Src/main.c.obj: \
  E:\Kicad_Projects\TMC2209_TestBoard\Firmware\Drivers\STM32F1xx_HAL_Driver\Inc/stm32f1xx_hal_flash.h \
  E:\Kicad_Projects\TMC2209_TestBoard\Firmware\Drivers\STM32F1xx_HAL_Driver\Inc/stm32f1xx_hal_flash_ex.h \
  E:\Kicad_Projects\TMC2209_TestBoard\Firmware\Drivers\STM32F1xx_HAL_Driver\Inc/stm32f1xx_hal_pwr.h \
+ E:\Kicad_Projects\TMC2209_TestBoard\Firmware\Drivers\STM32F1xx_HAL_Driver\Inc/stm32f1xx_hal_uart.h \
+ E:\Kicad_Projects\TMC2209_TestBoard\Firmware\Drivers\STM32F1xx_HAL_Driver\Inc/stm32f1xx_hal_pcd.h \
+ E:\Kicad_Projects\TMC2209_TestBoard\Firmware\Drivers\STM32F1xx_HAL_Driver\Inc/stm32f1xx_ll_usb.h \
+ E:\Kicad_Projects\TMC2209_TestBoard\Firmware\Drivers\STM32F1xx_HAL_Driver\Inc/stm32f1xx_hal_pcd_ex.h \
+ E:\Kicad_Projects\TMC2209_TestBoard\Firmware\Core\Inc/usart.h \
+ E:\Kicad_Projects\TMC2209_TestBoard\Firmware\Core\Inc/main.h \
  E:\Kicad_Projects\TMC2209_TestBoard\Firmware\Core\Inc/gpio.h \
- E:\Kicad_Projects\TMC2209_TestBoard\Firmware\Core\Inc/main.h
+ E:\Kicad_Projects\TMC2209_TestBoard\Firmware\Core\Inc/usb.h

@@ -3,15 +3,22 @@
 
 # compile ASM with E:/Program Files/STM32CubeMX/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc.exe
 # compile C with E:/Program Files/STM32CubeMX/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc.exe
+# compile CXX with E:/Program Files/STM32CubeMX/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-g++.exe
 ASM_DEFINES = -DSTM32F103x6 -DUSE_HAL_DRIVER
 
-ASM_INCLUDES = -IE:\Kicad_Projects\TMC2209_TestBoard\Firmware\Core\Inc -IE:\Kicad_Projects\TMC2209_TestBoard\Firmware\Drivers\STM32F1xx_HAL_Driver\Inc -IE:\Kicad_Projects\TMC2209_TestBoard\Firmware\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy -IE:\Kicad_Projects\TMC2209_TestBoard\Firmware\Drivers\CMSIS\Device\ST\STM32F1xx\Include -IE:\Kicad_Projects\TMC2209_TestBoard\Firmware\Drivers\CMSIS\Include
+ASM_INCLUDES = -IE:\Kicad_Projects\TMC2209_TestBoard\Firmware\UserAPP -IE:\Kicad_Projects\TMC2209_TestBoard\Firmware\HardWare\TMC2209 -IE:\Kicad_Projects\TMC2209_TestBoard\Firmware\Core\Inc -IE:\Kicad_Projects\TMC2209_TestBoard\Firmware\Drivers\STM32F1xx_HAL_Driver\Inc -IE:\Kicad_Projects\TMC2209_TestBoard\Firmware\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy -IE:\Kicad_Projects\TMC2209_TestBoard\Firmware\Drivers\CMSIS\Device\ST\STM32F1xx\Include -IE:\Kicad_Projects\TMC2209_TestBoard\Firmware\Drivers\CMSIS\Include
 
 ASM_FLAGS = -g -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -x assembler-with-cpp -Og -g
 
 C_DEFINES = -DSTM32F103x6 -DUSE_HAL_DRIVER
 
-C_INCLUDES = -IE:\Kicad_Projects\TMC2209_TestBoard\Firmware\Core\Inc -IE:\Kicad_Projects\TMC2209_TestBoard\Firmware\Drivers\STM32F1xx_HAL_Driver\Inc -IE:\Kicad_Projects\TMC2209_TestBoard\Firmware\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy -IE:\Kicad_Projects\TMC2209_TestBoard\Firmware\Drivers\CMSIS\Device\ST\STM32F1xx\Include -IE:\Kicad_Projects\TMC2209_TestBoard\Firmware\Drivers\CMSIS\Include
+C_INCLUDES = -IE:\Kicad_Projects\TMC2209_TestBoard\Firmware\UserAPP -IE:\Kicad_Projects\TMC2209_TestBoard\Firmware\HardWare\TMC2209 -IE:\Kicad_Projects\TMC2209_TestBoard\Firmware\Core\Inc -IE:\Kicad_Projects\TMC2209_TestBoard\Firmware\Drivers\STM32F1xx_HAL_Driver\Inc -IE:\Kicad_Projects\TMC2209_TestBoard\Firmware\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy -IE:\Kicad_Projects\TMC2209_TestBoard\Firmware\Drivers\CMSIS\Device\ST\STM32F1xx\Include -IE:\Kicad_Projects\TMC2209_TestBoard\Firmware\Drivers\CMSIS\Include
 
 C_FLAGS = -g -std=gnu11 -fdiagnostics-color=always -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g
+
+CXX_DEFINES = -DSTM32F103x6 -DUSE_HAL_DRIVER
+
+CXX_INCLUDES = -IE:\Kicad_Projects\TMC2209_TestBoard\Firmware\UserAPP -IE:\Kicad_Projects\TMC2209_TestBoard\Firmware\HardWare\TMC2209 -IE:\Kicad_Projects\TMC2209_TestBoard\Firmware\Core\Inc -IE:\Kicad_Projects\TMC2209_TestBoard\Firmware\Drivers\STM32F1xx_HAL_Driver\Inc -IE:\Kicad_Projects\TMC2209_TestBoard\Firmware\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy -IE:\Kicad_Projects\TMC2209_TestBoard\Firmware\Drivers\CMSIS\Device\ST\STM32F1xx\Include -IE:\Kicad_Projects\TMC2209_TestBoard\Firmware\Drivers\CMSIS\Include
+
+CXX_FLAGS = -g -std=gnu++17 -fdiagnostics-color=always -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g
 

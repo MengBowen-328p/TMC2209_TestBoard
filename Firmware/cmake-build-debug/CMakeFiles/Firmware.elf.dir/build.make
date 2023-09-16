@@ -152,10 +152,38 @@ CMakeFiles/Firmware.elf.dir/Core/Src/system_stm32f1xx.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Firmware.elf.dir/Core/Src/system_stm32f1xx.c.s"
 	"E:\Program Files\STM32CubeMX\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Kicad_Projects\TMC2209_TestBoard\Firmware\Core\Src\system_stm32f1xx.c -o CMakeFiles\Firmware.elf.dir\Core\Src\system_stm32f1xx.c.s
 
+CMakeFiles/Firmware.elf.dir/Core/Src/usart.c.obj: CMakeFiles/Firmware.elf.dir/flags.make
+CMakeFiles/Firmware.elf.dir/Core/Src/usart.c.obj: E:/Kicad_Projects/TMC2209_TestBoard/Firmware/Core/Src/usart.c
+CMakeFiles/Firmware.elf.dir/Core/Src/usart.c.obj: CMakeFiles/Firmware.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Kicad_Projects\TMC2209_TestBoard\Firmware\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/Firmware.elf.dir/Core/Src/usart.c.obj"
+	"E:\Program Files\STM32CubeMX\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Firmware.elf.dir/Core/Src/usart.c.obj -MF CMakeFiles\Firmware.elf.dir\Core\Src\usart.c.obj.d -o CMakeFiles\Firmware.elf.dir\Core\Src\usart.c.obj -c E:\Kicad_Projects\TMC2209_TestBoard\Firmware\Core\Src\usart.c
+
+CMakeFiles/Firmware.elf.dir/Core/Src/usart.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Firmware.elf.dir/Core/Src/usart.c.i"
+	"E:\Program Files\STM32CubeMX\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Kicad_Projects\TMC2209_TestBoard\Firmware\Core\Src\usart.c > CMakeFiles\Firmware.elf.dir\Core\Src\usart.c.i
+
+CMakeFiles/Firmware.elf.dir/Core/Src/usart.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Firmware.elf.dir/Core/Src/usart.c.s"
+	"E:\Program Files\STM32CubeMX\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Kicad_Projects\TMC2209_TestBoard\Firmware\Core\Src\usart.c -o CMakeFiles\Firmware.elf.dir\Core\Src\usart.c.s
+
+CMakeFiles/Firmware.elf.dir/Core/Src/usb.c.obj: CMakeFiles/Firmware.elf.dir/flags.make
+CMakeFiles/Firmware.elf.dir/Core/Src/usb.c.obj: E:/Kicad_Projects/TMC2209_TestBoard/Firmware/Core/Src/usb.c
+CMakeFiles/Firmware.elf.dir/Core/Src/usb.c.obj: CMakeFiles/Firmware.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Kicad_Projects\TMC2209_TestBoard\Firmware\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/Firmware.elf.dir/Core/Src/usb.c.obj"
+	"E:\Program Files\STM32CubeMX\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Firmware.elf.dir/Core/Src/usb.c.obj -MF CMakeFiles\Firmware.elf.dir\Core\Src\usb.c.obj.d -o CMakeFiles\Firmware.elf.dir\Core\Src\usb.c.obj -c E:\Kicad_Projects\TMC2209_TestBoard\Firmware\Core\Src\usb.c
+
+CMakeFiles/Firmware.elf.dir/Core/Src/usb.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Firmware.elf.dir/Core/Src/usb.c.i"
+	"E:\Program Files\STM32CubeMX\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Kicad_Projects\TMC2209_TestBoard\Firmware\Core\Src\usb.c > CMakeFiles\Firmware.elf.dir\Core\Src\usb.c.i
+
+CMakeFiles/Firmware.elf.dir/Core/Src/usb.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Firmware.elf.dir/Core/Src/usb.c.s"
+	"E:\Program Files\STM32CubeMX\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Kicad_Projects\TMC2209_TestBoard\Firmware\Core\Src\usb.c -o CMakeFiles\Firmware.elf.dir\Core\Src\usb.c.s
+
 CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj: CMakeFiles/Firmware.elf.dir/flags.make
 CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj: E:/Kicad_Projects/TMC2209_TestBoard/Firmware/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c
 CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj: CMakeFiles/Firmware.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Kicad_Projects\TMC2209_TestBoard\Firmware\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Kicad_Projects\TMC2209_TestBoard\Firmware\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj"
 	"E:\Program Files\STM32CubeMX\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj -MF CMakeFiles\Firmware.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c.obj.d -o CMakeFiles\Firmware.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c.obj -c E:\Kicad_Projects\TMC2209_TestBoard\Firmware\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c
 
 CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.i: cmake_force
@@ -169,7 +197,7 @@ CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.s: 
 CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj: CMakeFiles/Firmware.elf.dir/flags.make
 CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj: E:/Kicad_Projects/TMC2209_TestBoard/Firmware/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c
 CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj: CMakeFiles/Firmware.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Kicad_Projects\TMC2209_TestBoard\Firmware\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Kicad_Projects\TMC2209_TestBoard\Firmware\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj"
 	"E:\Program Files\STM32CubeMX\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj -MF CMakeFiles\Firmware.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c.obj.d -o CMakeFiles\Firmware.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c.obj -c E:\Kicad_Projects\TMC2209_TestBoard\Firmware\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c
 
 CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.i: cmake_force
@@ -183,7 +211,7 @@ CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_corte
 CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj: CMakeFiles/Firmware.elf.dir/flags.make
 CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj: E:/Kicad_Projects/TMC2209_TestBoard/Firmware/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c
 CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj: CMakeFiles/Firmware.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Kicad_Projects\TMC2209_TestBoard\Firmware\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Kicad_Projects\TMC2209_TestBoard\Firmware\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj"
 	"E:\Program Files\STM32CubeMX\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj -MF CMakeFiles\Firmware.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c.obj.d -o CMakeFiles\Firmware.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c.obj -c E:\Kicad_Projects\TMC2209_TestBoard\Firmware\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c
 
 CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.i: cmake_force
@@ -197,7 +225,7 @@ CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c
 CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj: CMakeFiles/Firmware.elf.dir/flags.make
 CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj: E:/Kicad_Projects/TMC2209_TestBoard/Firmware/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c
 CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj: CMakeFiles/Firmware.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Kicad_Projects\TMC2209_TestBoard\Firmware\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Kicad_Projects\TMC2209_TestBoard\Firmware\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj"
 	"E:\Program Files\STM32CubeMX\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj -MF CMakeFiles\Firmware.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c.obj.d -o CMakeFiles\Firmware.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c.obj -c E:\Kicad_Projects\TMC2209_TestBoard\Firmware\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c
 
 CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.i: cmake_force
@@ -211,7 +239,7 @@ CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.
 CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj: CMakeFiles/Firmware.elf.dir/flags.make
 CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj: E:/Kicad_Projects/TMC2209_TestBoard/Firmware/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c
 CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj: CMakeFiles/Firmware.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Kicad_Projects\TMC2209_TestBoard\Firmware\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Kicad_Projects\TMC2209_TestBoard\Firmware\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj"
 	"E:\Program Files\STM32CubeMX\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj -MF CMakeFiles\Firmware.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c.obj.d -o CMakeFiles\Firmware.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c.obj -c E:\Kicad_Projects\TMC2209_TestBoard\Firmware\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c
 
 CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.i: cmake_force
@@ -225,7 +253,7 @@ CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash
 CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj: CMakeFiles/Firmware.elf.dir/flags.make
 CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj: E:/Kicad_Projects/TMC2209_TestBoard/Firmware/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c
 CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj: CMakeFiles/Firmware.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Kicad_Projects\TMC2209_TestBoard\Firmware\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Kicad_Projects\TMC2209_TestBoard\Firmware\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj"
 	"E:\Program Files\STM32CubeMX\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj -MF CMakeFiles\Firmware.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c.obj.d -o CMakeFiles\Firmware.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c.obj -c E:\Kicad_Projects\TMC2209_TestBoard\Firmware\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c
 
 CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.i: cmake_force
@@ -239,7 +267,7 @@ CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash
 CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj: CMakeFiles/Firmware.elf.dir/flags.make
 CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj: E:/Kicad_Projects/TMC2209_TestBoard/Firmware/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c
 CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj: CMakeFiles/Firmware.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Kicad_Projects\TMC2209_TestBoard\Firmware\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Kicad_Projects\TMC2209_TestBoard\Firmware\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj"
 	"E:\Program Files\STM32CubeMX\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj -MF CMakeFiles\Firmware.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c.obj.d -o CMakeFiles\Firmware.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c.obj -c E:\Kicad_Projects\TMC2209_TestBoard\Firmware\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c
 
 CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.i: cmake_force
@@ -253,7 +281,7 @@ CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.
 CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj: CMakeFiles/Firmware.elf.dir/flags.make
 CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj: E:/Kicad_Projects/TMC2209_TestBoard/Firmware/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c
 CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj: CMakeFiles/Firmware.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Kicad_Projects\TMC2209_TestBoard\Firmware\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Kicad_Projects\TMC2209_TestBoard\Firmware\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj"
 	"E:\Program Files\STM32CubeMX\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj -MF CMakeFiles\Firmware.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c.obj.d -o CMakeFiles\Firmware.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c.obj -c E:\Kicad_Projects\TMC2209_TestBoard\Firmware\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c
 
 CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.i: cmake_force
@@ -264,10 +292,38 @@ CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.s"
 	"E:\Program Files\STM32CubeMX\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Kicad_Projects\TMC2209_TestBoard\Firmware\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c -o CMakeFiles\Firmware.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c.s
 
+CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.obj: CMakeFiles/Firmware.elf.dir/flags.make
+CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.obj: E:/Kicad_Projects/TMC2209_TestBoard/Firmware/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c
+CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.obj: CMakeFiles/Firmware.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Kicad_Projects\TMC2209_TestBoard\Firmware\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.obj"
+	"E:\Program Files\STM32CubeMX\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.obj -MF CMakeFiles\Firmware.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pcd.c.obj.d -o CMakeFiles\Firmware.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pcd.c.obj -c E:\Kicad_Projects\TMC2209_TestBoard\Firmware\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pcd.c
+
+CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.i"
+	"E:\Program Files\STM32CubeMX\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Kicad_Projects\TMC2209_TestBoard\Firmware\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pcd.c > CMakeFiles\Firmware.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pcd.c.i
+
+CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.s"
+	"E:\Program Files\STM32CubeMX\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Kicad_Projects\TMC2209_TestBoard\Firmware\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pcd.c -o CMakeFiles\Firmware.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pcd.c.s
+
+CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c.obj: CMakeFiles/Firmware.elf.dir/flags.make
+CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c.obj: E:/Kicad_Projects/TMC2209_TestBoard/Firmware/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c
+CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c.obj: CMakeFiles/Firmware.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Kicad_Projects\TMC2209_TestBoard\Firmware\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c.obj"
+	"E:\Program Files\STM32CubeMX\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c.obj -MF CMakeFiles\Firmware.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pcd_ex.c.obj.d -o CMakeFiles\Firmware.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pcd_ex.c.obj -c E:\Kicad_Projects\TMC2209_TestBoard\Firmware\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pcd_ex.c
+
+CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c.i"
+	"E:\Program Files\STM32CubeMX\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Kicad_Projects\TMC2209_TestBoard\Firmware\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pcd_ex.c > CMakeFiles\Firmware.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pcd_ex.c.i
+
+CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c.s"
+	"E:\Program Files\STM32CubeMX\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Kicad_Projects\TMC2209_TestBoard\Firmware\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pcd_ex.c -o CMakeFiles\Firmware.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pcd_ex.c.s
+
 CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj: CMakeFiles/Firmware.elf.dir/flags.make
 CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj: E:/Kicad_Projects/TMC2209_TestBoard/Firmware/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c
 CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj: CMakeFiles/Firmware.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Kicad_Projects\TMC2209_TestBoard\Firmware\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Kicad_Projects\TMC2209_TestBoard\Firmware\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj"
 	"E:\Program Files\STM32CubeMX\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj -MF CMakeFiles\Firmware.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c.obj.d -o CMakeFiles\Firmware.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c.obj -c E:\Kicad_Projects\TMC2209_TestBoard\Firmware\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c
 
 CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.i: cmake_force
@@ -281,7 +337,7 @@ CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c
 CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj: CMakeFiles/Firmware.elf.dir/flags.make
 CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj: E:/Kicad_Projects/TMC2209_TestBoard/Firmware/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c
 CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj: CMakeFiles/Firmware.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Kicad_Projects\TMC2209_TestBoard\Firmware\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Kicad_Projects\TMC2209_TestBoard\Firmware\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj"
 	"E:\Program Files\STM32CubeMX\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj -MF CMakeFiles\Firmware.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c.obj.d -o CMakeFiles\Firmware.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c.obj -c E:\Kicad_Projects\TMC2209_TestBoard\Firmware\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c
 
 CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.i: cmake_force
@@ -295,7 +351,7 @@ CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c
 CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj: CMakeFiles/Firmware.elf.dir/flags.make
 CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj: E:/Kicad_Projects/TMC2209_TestBoard/Firmware/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c
 CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj: CMakeFiles/Firmware.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Kicad_Projects\TMC2209_TestBoard\Firmware\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Kicad_Projects\TMC2209_TestBoard\Firmware\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj"
 	"E:\Program Files\STM32CubeMX\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj -MF CMakeFiles\Firmware.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c.obj.d -o CMakeFiles\Firmware.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c.obj -c E:\Kicad_Projects\TMC2209_TestBoard\Firmware\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c
 
 CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.i: cmake_force
@@ -309,7 +365,7 @@ CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_e
 CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj: CMakeFiles/Firmware.elf.dir/flags.make
 CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj: E:/Kicad_Projects/TMC2209_TestBoard/Firmware/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c
 CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj: CMakeFiles/Firmware.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Kicad_Projects\TMC2209_TestBoard\Firmware\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Kicad_Projects\TMC2209_TestBoard\Firmware\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj"
 	"E:\Program Files\STM32CubeMX\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj -MF CMakeFiles\Firmware.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c.obj.d -o CMakeFiles\Firmware.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c.obj -c E:\Kicad_Projects\TMC2209_TestBoard\Firmware\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c
 
 CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.i: cmake_force
@@ -323,7 +379,7 @@ CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c
 CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj: CMakeFiles/Firmware.elf.dir/flags.make
 CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj: E:/Kicad_Projects/TMC2209_TestBoard/Firmware/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c
 CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj: CMakeFiles/Firmware.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Kicad_Projects\TMC2209_TestBoard\Firmware\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Kicad_Projects\TMC2209_TestBoard\Firmware\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj"
 	"E:\Program Files\STM32CubeMX\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj -MF CMakeFiles\Firmware.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c.obj.d -o CMakeFiles\Firmware.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c.obj -c E:\Kicad_Projects\TMC2209_TestBoard\Firmware\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c
 
 CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.i: cmake_force
@@ -334,9 +390,65 @@ CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_e
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.s"
 	"E:\Program Files\STM32CubeMX\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Kicad_Projects\TMC2209_TestBoard\Firmware\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c -o CMakeFiles\Firmware.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c.s
 
+CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj: CMakeFiles/Firmware.elf.dir/flags.make
+CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj: E:/Kicad_Projects/TMC2209_TestBoard/Firmware/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c
+CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj: CMakeFiles/Firmware.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Kicad_Projects\TMC2209_TestBoard\Firmware\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj"
+	"E:\Program Files\STM32CubeMX\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj -MF CMakeFiles\Firmware.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.c.obj.d -o CMakeFiles\Firmware.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.c.obj -c E:\Kicad_Projects\TMC2209_TestBoard\Firmware\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.c
+
+CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.i"
+	"E:\Program Files\STM32CubeMX\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Kicad_Projects\TMC2209_TestBoard\Firmware\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.c > CMakeFiles\Firmware.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.c.i
+
+CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.s"
+	"E:\Program Files\STM32CubeMX\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Kicad_Projects\TMC2209_TestBoard\Firmware\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.c -o CMakeFiles\Firmware.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.c.s
+
+CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.obj: CMakeFiles/Firmware.elf.dir/flags.make
+CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.obj: E:/Kicad_Projects/TMC2209_TestBoard/Firmware/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c
+CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.obj: CMakeFiles/Firmware.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Kicad_Projects\TMC2209_TestBoard\Firmware\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.obj"
+	"E:\Program Files\STM32CubeMX\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.obj -MF CMakeFiles\Firmware.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_usb.c.obj.d -o CMakeFiles\Firmware.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_usb.c.obj -c E:\Kicad_Projects\TMC2209_TestBoard\Firmware\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_usb.c
+
+CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.i"
+	"E:\Program Files\STM32CubeMX\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Kicad_Projects\TMC2209_TestBoard\Firmware\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_usb.c > CMakeFiles\Firmware.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_usb.c.i
+
+CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.s"
+	"E:\Program Files\STM32CubeMX\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Kicad_Projects\TMC2209_TestBoard\Firmware\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_usb.c -o CMakeFiles\Firmware.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_usb.c.s
+
+CMakeFiles/Firmware.elf.dir/HardWare/TMC2209/Driver.cpp.obj: CMakeFiles/Firmware.elf.dir/flags.make
+CMakeFiles/Firmware.elf.dir/HardWare/TMC2209/Driver.cpp.obj: E:/Kicad_Projects/TMC2209_TestBoard/Firmware/HardWare/TMC2209/Driver.cpp
+CMakeFiles/Firmware.elf.dir/HardWare/TMC2209/Driver.cpp.obj: CMakeFiles/Firmware.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Kicad_Projects\TMC2209_TestBoard\Firmware\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/Firmware.elf.dir/HardWare/TMC2209/Driver.cpp.obj"
+	"E:\Program Files\STM32CubeMX\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Firmware.elf.dir/HardWare/TMC2209/Driver.cpp.obj -MF CMakeFiles\Firmware.elf.dir\HardWare\TMC2209\Driver.cpp.obj.d -o CMakeFiles\Firmware.elf.dir\HardWare\TMC2209\Driver.cpp.obj -c E:\Kicad_Projects\TMC2209_TestBoard\Firmware\HardWare\TMC2209\Driver.cpp
+
+CMakeFiles/Firmware.elf.dir/HardWare/TMC2209/Driver.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Firmware.elf.dir/HardWare/TMC2209/Driver.cpp.i"
+	"E:\Program Files\STM32CubeMX\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Kicad_Projects\TMC2209_TestBoard\Firmware\HardWare\TMC2209\Driver.cpp > CMakeFiles\Firmware.elf.dir\HardWare\TMC2209\Driver.cpp.i
+
+CMakeFiles/Firmware.elf.dir/HardWare/TMC2209/Driver.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Firmware.elf.dir/HardWare/TMC2209/Driver.cpp.s"
+	"E:\Program Files\STM32CubeMX\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Kicad_Projects\TMC2209_TestBoard\Firmware\HardWare\TMC2209\Driver.cpp -o CMakeFiles\Firmware.elf.dir\HardWare\TMC2209\Driver.cpp.s
+
+CMakeFiles/Firmware.elf.dir/UserAPP/UserAPP.cpp.obj: CMakeFiles/Firmware.elf.dir/flags.make
+CMakeFiles/Firmware.elf.dir/UserAPP/UserAPP.cpp.obj: E:/Kicad_Projects/TMC2209_TestBoard/Firmware/UserAPP/UserAPP.cpp
+CMakeFiles/Firmware.elf.dir/UserAPP/UserAPP.cpp.obj: CMakeFiles/Firmware.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Kicad_Projects\TMC2209_TestBoard\Firmware\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/Firmware.elf.dir/UserAPP/UserAPP.cpp.obj"
+	"E:\Program Files\STM32CubeMX\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Firmware.elf.dir/UserAPP/UserAPP.cpp.obj -MF CMakeFiles\Firmware.elf.dir\UserAPP\UserAPP.cpp.obj.d -o CMakeFiles\Firmware.elf.dir\UserAPP\UserAPP.cpp.obj -c E:\Kicad_Projects\TMC2209_TestBoard\Firmware\UserAPP\UserAPP.cpp
+
+CMakeFiles/Firmware.elf.dir/UserAPP/UserAPP.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Firmware.elf.dir/UserAPP/UserAPP.cpp.i"
+	"E:\Program Files\STM32CubeMX\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Kicad_Projects\TMC2209_TestBoard\Firmware\UserAPP\UserAPP.cpp > CMakeFiles\Firmware.elf.dir\UserAPP\UserAPP.cpp.i
+
+CMakeFiles/Firmware.elf.dir/UserAPP/UserAPP.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Firmware.elf.dir/UserAPP/UserAPP.cpp.s"
+	"E:\Program Files\STM32CubeMX\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Kicad_Projects\TMC2209_TestBoard\Firmware\UserAPP\UserAPP.cpp -o CMakeFiles\Firmware.elf.dir\UserAPP\UserAPP.cpp.s
+
 CMakeFiles/Firmware.elf.dir/startup/startup_stm32f103x6.s.obj: CMakeFiles/Firmware.elf.dir/flags.make
 CMakeFiles/Firmware.elf.dir/startup/startup_stm32f103x6.s.obj: E:/Kicad_Projects/TMC2209_TestBoard/Firmware/startup/startup_stm32f103x6.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Kicad_Projects\TMC2209_TestBoard\Firmware\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building ASM object CMakeFiles/Firmware.elf.dir/startup/startup_stm32f103x6.s.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Kicad_Projects\TMC2209_TestBoard\Firmware\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building ASM object CMakeFiles/Firmware.elf.dir/startup/startup_stm32f103x6.s.obj"
 	"E:\Program Files\STM32CubeMX\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe" $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\Firmware.elf.dir\startup\startup_stm32f103x6.s.obj -c E:\Kicad_Projects\TMC2209_TestBoard\Firmware\startup\startup_stm32f103x6.s
 
 CMakeFiles/Firmware.elf.dir/startup/startup_stm32f103x6.s.i: cmake_force
@@ -355,6 +467,8 @@ Firmware_elf_OBJECTS = \
 "CMakeFiles/Firmware.elf.dir/Core/Src/stm32f1xx_it.c.obj" \
 "CMakeFiles/Firmware.elf.dir/Core/Src/syscalls.c.obj" \
 "CMakeFiles/Firmware.elf.dir/Core/Src/system_stm32f1xx.c.obj" \
+"CMakeFiles/Firmware.elf.dir/Core/Src/usart.c.obj" \
+"CMakeFiles/Firmware.elf.dir/Core/Src/usb.c.obj" \
 "CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj" \
 "CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj" \
 "CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj" \
@@ -363,11 +477,17 @@ Firmware_elf_OBJECTS = \
 "CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj" \
 "CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj" \
 "CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj" \
+"CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.obj" \
+"CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c.obj" \
 "CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj" \
 "CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj" \
 "CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj" \
 "CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj" \
 "CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj" \
+"CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj" \
+"CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.obj" \
+"CMakeFiles/Firmware.elf.dir/HardWare/TMC2209/Driver.cpp.obj" \
+"CMakeFiles/Firmware.elf.dir/UserAPP/UserAPP.cpp.obj" \
 "CMakeFiles/Firmware.elf.dir/startup/startup_stm32f103x6.s.obj"
 
 # External object files for target Firmware.elf
@@ -379,6 +499,8 @@ Firmware.elf: CMakeFiles/Firmware.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
 Firmware.elf: CMakeFiles/Firmware.elf.dir/Core/Src/stm32f1xx_it.c.obj
 Firmware.elf: CMakeFiles/Firmware.elf.dir/Core/Src/syscalls.c.obj
 Firmware.elf: CMakeFiles/Firmware.elf.dir/Core/Src/system_stm32f1xx.c.obj
+Firmware.elf: CMakeFiles/Firmware.elf.dir/Core/Src/usart.c.obj
+Firmware.elf: CMakeFiles/Firmware.elf.dir/Core/Src/usb.c.obj
 Firmware.elf: CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
 Firmware.elf: CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
 Firmware.elf: CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
@@ -387,15 +509,21 @@ Firmware.elf: CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32
 Firmware.elf: CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj
 Firmware.elf: CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
 Firmware.elf: CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj
+Firmware.elf: CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.obj
+Firmware.elf: CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c.obj
 Firmware.elf: CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj
 Firmware.elf: CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
 Firmware.elf: CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj
 Firmware.elf: CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
 Firmware.elf: CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
+Firmware.elf: CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+Firmware.elf: CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.obj
+Firmware.elf: CMakeFiles/Firmware.elf.dir/HardWare/TMC2209/Driver.cpp.obj
+Firmware.elf: CMakeFiles/Firmware.elf.dir/UserAPP/UserAPP.cpp.obj
 Firmware.elf: CMakeFiles/Firmware.elf.dir/startup/startup_stm32f103x6.s.obj
 Firmware.elf: CMakeFiles/Firmware.elf.dir/build.make
 Firmware.elf: CMakeFiles/Firmware.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\Kicad_Projects\TMC2209_TestBoard\Firmware\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Linking C executable Firmware.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\Kicad_Projects\TMC2209_TestBoard\Firmware\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Linking CXX executable Firmware.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Firmware.elf.dir\link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building E:/Kicad_Projects/TMC2209_TestBoard/Firmware/cmake-build-debug/Firmware.hex"
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building E:/Kicad_Projects/TMC2209_TestBoard/Firmware/cmake-build-debug/Firmware.bin"

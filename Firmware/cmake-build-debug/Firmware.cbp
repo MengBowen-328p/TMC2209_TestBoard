@@ -11,10 +11,10 @@
 				<Option working_dir="E:/Kicad_Projects/TMC2209_TestBoard/Firmware/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="E:/Program Files/Clion/CLion 2023.1.4/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Kicad_Projects/TMC2209_TestBoard/Firmware/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="E:/Program Files/Clion/CLion 2023.1.4/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Kicad_Projects/TMC2209_TestBoard/Firmware/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/Program Files/Clion/CLion 2023.1.4/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Kicad_Projects/TMC2209_TestBoard/Firmware/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/Program Files/Clion/CLion 2023.1.4/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Kicad_Projects/TMC2209_TestBoard/Firmware/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/MSYS2_X64/ucrt64/bin/mingw32-make.exe -f &quot;E:/Kicad_Projects/TMC2209_TestBoard/Firmware/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="E:/MSYS2_X64/ucrt64/bin/mingw32-make.exe -f &quot;E:/Kicad_Projects/TMC2209_TestBoard/Firmware/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/MSYS2_X64/ucrt64/bin/mingw32-make.exe -f &quot;E:/Kicad_Projects/TMC2209_TestBoard/Firmware/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/MSYS2_X64/ucrt64/bin/mingw32-make.exe -f &quot;E:/Kicad_Projects/TMC2209_TestBoard/Firmware/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Firmware.elf">
@@ -26,6 +26,8 @@
 				<Compiler>
 					<Add option="-DUSE_HAL_DRIVER"/>
 					<Add option="-DSTM32F103x6"/>
+					<Add directory="E:/Kicad_Projects/TMC2209_TestBoard/Firmware/UserAPP"/>
+					<Add directory="E:/Kicad_Projects/TMC2209_TestBoard/Firmware/HardWare/TMC2209"/>
 					<Add directory="E:/Kicad_Projects/TMC2209_TestBoard/Firmware/Core/Inc"/>
 					<Add directory="E:/Kicad_Projects/TMC2209_TestBoard/Firmware/Drivers/STM32F1xx_HAL_Driver/Inc"/>
 					<Add directory="E:/Kicad_Projects/TMC2209_TestBoard/Firmware/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"/>
@@ -39,10 +41,10 @@
 					<Add directory="e:\program files\stm32cubemx\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="E:/Program Files/Clion/CLion 2023.1.4/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Kicad_Projects/TMC2209_TestBoard/Firmware/cmake-build-debug/Makefile&quot;  VERBOSE=1 Firmware.elf"/>
-					<CompileFile command="E:/Program Files/Clion/CLion 2023.1.4/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Kicad_Projects/TMC2209_TestBoard/Firmware/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/Program Files/Clion/CLion 2023.1.4/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Kicad_Projects/TMC2209_TestBoard/Firmware/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/Program Files/Clion/CLion 2023.1.4/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Kicad_Projects/TMC2209_TestBoard/Firmware/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/MSYS2_X64/ucrt64/bin/mingw32-make.exe -f &quot;E:/Kicad_Projects/TMC2209_TestBoard/Firmware/cmake-build-debug/Makefile&quot;  VERBOSE=1 Firmware.elf"/>
+					<CompileFile command="E:/MSYS2_X64/ucrt64/bin/mingw32-make.exe -f &quot;E:/Kicad_Projects/TMC2209_TestBoard/Firmware/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/MSYS2_X64/ucrt64/bin/mingw32-make.exe -f &quot;E:/Kicad_Projects/TMC2209_TestBoard/Firmware/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/MSYS2_X64/ucrt64/bin/mingw32-make.exe -f &quot;E:/Kicad_Projects/TMC2209_TestBoard/Firmware/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Firmware.elf/fast">
@@ -54,6 +56,8 @@
 				<Compiler>
 					<Add option="-DUSE_HAL_DRIVER"/>
 					<Add option="-DSTM32F103x6"/>
+					<Add directory="E:/Kicad_Projects/TMC2209_TestBoard/Firmware/UserAPP"/>
+					<Add directory="E:/Kicad_Projects/TMC2209_TestBoard/Firmware/HardWare/TMC2209"/>
 					<Add directory="E:/Kicad_Projects/TMC2209_TestBoard/Firmware/Core/Inc"/>
 					<Add directory="E:/Kicad_Projects/TMC2209_TestBoard/Firmware/Drivers/STM32F1xx_HAL_Driver/Inc"/>
 					<Add directory="E:/Kicad_Projects/TMC2209_TestBoard/Firmware/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"/>
@@ -67,30 +71,30 @@
 					<Add directory="e:\program files\stm32cubemx\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="E:/Program Files/Clion/CLion 2023.1.4/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Kicad_Projects/TMC2209_TestBoard/Firmware/cmake-build-debug/Makefile&quot;  VERBOSE=1 Firmware.elf/fast"/>
-					<CompileFile command="E:/Program Files/Clion/CLion 2023.1.4/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Kicad_Projects/TMC2209_TestBoard/Firmware/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/Program Files/Clion/CLion 2023.1.4/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Kicad_Projects/TMC2209_TestBoard/Firmware/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/Program Files/Clion/CLion 2023.1.4/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Kicad_Projects/TMC2209_TestBoard/Firmware/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/MSYS2_X64/ucrt64/bin/mingw32-make.exe -f &quot;E:/Kicad_Projects/TMC2209_TestBoard/Firmware/cmake-build-debug/Makefile&quot;  VERBOSE=1 Firmware.elf/fast"/>
+					<CompileFile command="E:/MSYS2_X64/ucrt64/bin/mingw32-make.exe -f &quot;E:/Kicad_Projects/TMC2209_TestBoard/Firmware/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/MSYS2_X64/ucrt64/bin/mingw32-make.exe -f &quot;E:/Kicad_Projects/TMC2209_TestBoard/Firmware/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/MSYS2_X64/ucrt64/bin/mingw32-make.exe -f &quot;E:/Kicad_Projects/TMC2209_TestBoard/Firmware/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="E:/Kicad_Projects/TMC2209_TestBoard/Firmware/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="E:/Program Files/Clion/CLion 2023.1.4/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Kicad_Projects/TMC2209_TestBoard/Firmware/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="E:/Program Files/Clion/CLion 2023.1.4/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Kicad_Projects/TMC2209_TestBoard/Firmware/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/Program Files/Clion/CLion 2023.1.4/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Kicad_Projects/TMC2209_TestBoard/Firmware/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/Program Files/Clion/CLion 2023.1.4/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Kicad_Projects/TMC2209_TestBoard/Firmware/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/MSYS2_X64/ucrt64/bin/mingw32-make.exe -f &quot;E:/Kicad_Projects/TMC2209_TestBoard/Firmware/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="E:/MSYS2_X64/ucrt64/bin/mingw32-make.exe -f &quot;E:/Kicad_Projects/TMC2209_TestBoard/Firmware/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/MSYS2_X64/ucrt64/bin/mingw32-make.exe -f &quot;E:/Kicad_Projects/TMC2209_TestBoard/Firmware/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/MSYS2_X64/ucrt64/bin/mingw32-make.exe -f &quot;E:/Kicad_Projects/TMC2209_TestBoard/Firmware/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
 				<Option working_dir="E:/Kicad_Projects/TMC2209_TestBoard/Firmware/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="E:/Program Files/Clion/CLion 2023.1.4/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Kicad_Projects/TMC2209_TestBoard/Firmware/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="E:/Program Files/Clion/CLion 2023.1.4/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Kicad_Projects/TMC2209_TestBoard/Firmware/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/Program Files/Clion/CLion 2023.1.4/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Kicad_Projects/TMC2209_TestBoard/Firmware/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/Program Files/Clion/CLion 2023.1.4/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Kicad_Projects/TMC2209_TestBoard/Firmware/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/MSYS2_X64/ucrt64/bin/mingw32-make.exe -f &quot;E:/Kicad_Projects/TMC2209_TestBoard/Firmware/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="E:/MSYS2_X64/ucrt64/bin/mingw32-make.exe -f &quot;E:/Kicad_Projects/TMC2209_TestBoard/Firmware/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/MSYS2_X64/ucrt64/bin/mingw32-make.exe -f &quot;E:/Kicad_Projects/TMC2209_TestBoard/Firmware/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/MSYS2_X64/ucrt64/bin/mingw32-make.exe -f &quot;E:/Kicad_Projects/TMC2209_TestBoard/Firmware/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
@@ -104,6 +108,12 @@
 			<Option target="Firmware.elf"/>
 		</Unit>
 		<Unit filename="E:/Kicad_Projects/TMC2209_TestBoard/Firmware/Core/Inc/stm32f1xx_it.h">
+			<Option target="Firmware.elf"/>
+		</Unit>
+		<Unit filename="E:/Kicad_Projects/TMC2209_TestBoard/Firmware/Core/Inc/usart.h">
+			<Option target="Firmware.elf"/>
+		</Unit>
+		<Unit filename="E:/Kicad_Projects/TMC2209_TestBoard/Firmware/Core/Inc/usb.h">
 			<Option target="Firmware.elf"/>
 		</Unit>
 		<Unit filename="E:/Kicad_Projects/TMC2209_TestBoard/Firmware/Core/Src/gpio.c">
@@ -122,6 +132,12 @@
 			<Option target="Firmware.elf"/>
 		</Unit>
 		<Unit filename="E:/Kicad_Projects/TMC2209_TestBoard/Firmware/Core/Src/system_stm32f1xx.c">
+			<Option target="Firmware.elf"/>
+		</Unit>
+		<Unit filename="E:/Kicad_Projects/TMC2209_TestBoard/Firmware/Core/Src/usart.c">
+			<Option target="Firmware.elf"/>
+		</Unit>
+		<Unit filename="E:/Kicad_Projects/TMC2209_TestBoard/Firmware/Core/Src/usb.c">
 			<Option target="Firmware.elf"/>
 		</Unit>
 		<Unit filename="E:/Kicad_Projects/TMC2209_TestBoard/Firmware/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103x6.h">
@@ -235,6 +251,12 @@
 		<Unit filename="E:/Kicad_Projects/TMC2209_TestBoard/Firmware/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h">
 			<Option target="Firmware.elf"/>
 		</Unit>
+		<Unit filename="E:/Kicad_Projects/TMC2209_TestBoard/Firmware/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h">
+			<Option target="Firmware.elf"/>
+		</Unit>
+		<Unit filename="E:/Kicad_Projects/TMC2209_TestBoard/Firmware/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h">
+			<Option target="Firmware.elf"/>
+		</Unit>
 		<Unit filename="E:/Kicad_Projects/TMC2209_TestBoard/Firmware/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h">
 			<Option target="Firmware.elf"/>
 		</Unit>
@@ -248,6 +270,12 @@
 			<Option target="Firmware.elf"/>
 		</Unit>
 		<Unit filename="E:/Kicad_Projects/TMC2209_TestBoard/Firmware/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h">
+			<Option target="Firmware.elf"/>
+		</Unit>
+		<Unit filename="E:/Kicad_Projects/TMC2209_TestBoard/Firmware/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h">
+			<Option target="Firmware.elf"/>
+		</Unit>
+		<Unit filename="E:/Kicad_Projects/TMC2209_TestBoard/Firmware/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h">
 			<Option target="Firmware.elf"/>
 		</Unit>
 		<Unit filename="E:/Kicad_Projects/TMC2209_TestBoard/Firmware/Drivers/STM32F1xx_HAL_Driver/LICENSE.txt">
@@ -277,6 +305,12 @@
 		<Unit filename="E:/Kicad_Projects/TMC2209_TestBoard/Firmware/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c">
 			<Option target="Firmware.elf"/>
 		</Unit>
+		<Unit filename="E:/Kicad_Projects/TMC2209_TestBoard/Firmware/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c">
+			<Option target="Firmware.elf"/>
+		</Unit>
+		<Unit filename="E:/Kicad_Projects/TMC2209_TestBoard/Firmware/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c">
+			<Option target="Firmware.elf"/>
+		</Unit>
 		<Unit filename="E:/Kicad_Projects/TMC2209_TestBoard/Firmware/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c">
 			<Option target="Firmware.elf"/>
 		</Unit>
@@ -292,7 +326,25 @@
 		<Unit filename="E:/Kicad_Projects/TMC2209_TestBoard/Firmware/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c">
 			<Option target="Firmware.elf"/>
 		</Unit>
+		<Unit filename="E:/Kicad_Projects/TMC2209_TestBoard/Firmware/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c">
+			<Option target="Firmware.elf"/>
+		</Unit>
+		<Unit filename="E:/Kicad_Projects/TMC2209_TestBoard/Firmware/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c">
+			<Option target="Firmware.elf"/>
+		</Unit>
+		<Unit filename="E:/Kicad_Projects/TMC2209_TestBoard/Firmware/HardWare/TMC2209/Driver.cpp">
+			<Option target="Firmware.elf"/>
+		</Unit>
+		<Unit filename="E:/Kicad_Projects/TMC2209_TestBoard/Firmware/HardWare/TMC2209/Driver.h">
+			<Option target="Firmware.elf"/>
+		</Unit>
 		<Unit filename="E:/Kicad_Projects/TMC2209_TestBoard/Firmware/STM32F103C6Tx_FLASH.ld">
+			<Option target="Firmware.elf"/>
+		</Unit>
+		<Unit filename="E:/Kicad_Projects/TMC2209_TestBoard/Firmware/UserAPP/UserAPP.cpp">
+			<Option target="Firmware.elf"/>
+		</Unit>
+		<Unit filename="E:/Kicad_Projects/TMC2209_TestBoard/Firmware/UserAPP/UserAPP.h">
 			<Option target="Firmware.elf"/>
 		</Unit>
 		<Unit filename="E:/Kicad_Projects/TMC2209_TestBoard/Firmware/startup/startup_stm32f103x6.s">

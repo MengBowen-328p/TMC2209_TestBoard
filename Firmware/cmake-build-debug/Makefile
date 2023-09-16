@@ -272,6 +272,54 @@ Core/Src/system_stm32f1xx.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Firmware.elf.dir\build.make CMakeFiles/Firmware.elf.dir/Core/Src/system_stm32f1xx.c.s
 .PHONY : Core/Src/system_stm32f1xx.c.s
 
+Core/Src/usart.obj: Core/Src/usart.c.obj
+.PHONY : Core/Src/usart.obj
+
+# target to build an object file
+Core/Src/usart.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Firmware.elf.dir\build.make CMakeFiles/Firmware.elf.dir/Core/Src/usart.c.obj
+.PHONY : Core/Src/usart.c.obj
+
+Core/Src/usart.i: Core/Src/usart.c.i
+.PHONY : Core/Src/usart.i
+
+# target to preprocess a source file
+Core/Src/usart.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Firmware.elf.dir\build.make CMakeFiles/Firmware.elf.dir/Core/Src/usart.c.i
+.PHONY : Core/Src/usart.c.i
+
+Core/Src/usart.s: Core/Src/usart.c.s
+.PHONY : Core/Src/usart.s
+
+# target to generate assembly for a file
+Core/Src/usart.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Firmware.elf.dir\build.make CMakeFiles/Firmware.elf.dir/Core/Src/usart.c.s
+.PHONY : Core/Src/usart.c.s
+
+Core/Src/usb.obj: Core/Src/usb.c.obj
+.PHONY : Core/Src/usb.obj
+
+# target to build an object file
+Core/Src/usb.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Firmware.elf.dir\build.make CMakeFiles/Firmware.elf.dir/Core/Src/usb.c.obj
+.PHONY : Core/Src/usb.c.obj
+
+Core/Src/usb.i: Core/Src/usb.c.i
+.PHONY : Core/Src/usb.i
+
+# target to preprocess a source file
+Core/Src/usb.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Firmware.elf.dir\build.make CMakeFiles/Firmware.elf.dir/Core/Src/usb.c.i
+.PHONY : Core/Src/usb.c.i
+
+Core/Src/usb.s: Core/Src/usb.c.s
+.PHONY : Core/Src/usb.s
+
+# target to generate assembly for a file
+Core/Src/usb.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Firmware.elf.dir\build.make CMakeFiles/Firmware.elf.dir/Core/Src/usb.c.s
+.PHONY : Core/Src/usb.c.s
+
 Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.obj: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
 .PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.obj
 
@@ -464,6 +512,54 @@ Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Firmware.elf.dir\build.make CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.s
 .PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.s
 
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.obj: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.obj
+.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.obj
+
+# target to build an object file
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Firmware.elf.dir\build.make CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.obj
+.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.obj
+
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.i: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.i
+.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.i
+
+# target to preprocess a source file
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Firmware.elf.dir\build.make CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.i
+.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.i
+
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.s: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.s
+.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.s
+
+# target to generate assembly for a file
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Firmware.elf.dir\build.make CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.s
+.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.s
+
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.obj: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c.obj
+.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.obj
+
+# target to build an object file
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Firmware.elf.dir\build.make CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c.obj
+.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c.obj
+
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.i: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c.i
+.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.i
+
+# target to preprocess a source file
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Firmware.elf.dir\build.make CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c.i
+.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c.i
+
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.s: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c.s
+.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.s
+
+# target to generate assembly for a file
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Firmware.elf.dir\build.make CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c.s
+.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c.s
+
 Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.obj: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj
 .PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.obj
 
@@ -584,6 +680,102 @@ Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Firmware.elf.dir\build.make CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.s
 .PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.s
 
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.obj: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.obj
+
+# target to build an object file
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Firmware.elf.dir\build.make CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.i: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.i
+.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.i
+
+# target to preprocess a source file
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Firmware.elf.dir\build.make CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.i
+.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.i
+
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.s: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.s
+.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.s
+
+# target to generate assembly for a file
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Firmware.elf.dir\build.make CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.s
+.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.s
+
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.obj: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.obj
+.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.obj
+
+# target to build an object file
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Firmware.elf.dir\build.make CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.obj
+.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.obj
+
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.i: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.i
+.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.i
+
+# target to preprocess a source file
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Firmware.elf.dir\build.make CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.i
+.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.i
+
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.s: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.s
+.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.s
+
+# target to generate assembly for a file
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Firmware.elf.dir\build.make CMakeFiles/Firmware.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.s
+.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.s
+
+HardWare/TMC2209/Driver.obj: HardWare/TMC2209/Driver.cpp.obj
+.PHONY : HardWare/TMC2209/Driver.obj
+
+# target to build an object file
+HardWare/TMC2209/Driver.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Firmware.elf.dir\build.make CMakeFiles/Firmware.elf.dir/HardWare/TMC2209/Driver.cpp.obj
+.PHONY : HardWare/TMC2209/Driver.cpp.obj
+
+HardWare/TMC2209/Driver.i: HardWare/TMC2209/Driver.cpp.i
+.PHONY : HardWare/TMC2209/Driver.i
+
+# target to preprocess a source file
+HardWare/TMC2209/Driver.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Firmware.elf.dir\build.make CMakeFiles/Firmware.elf.dir/HardWare/TMC2209/Driver.cpp.i
+.PHONY : HardWare/TMC2209/Driver.cpp.i
+
+HardWare/TMC2209/Driver.s: HardWare/TMC2209/Driver.cpp.s
+.PHONY : HardWare/TMC2209/Driver.s
+
+# target to generate assembly for a file
+HardWare/TMC2209/Driver.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Firmware.elf.dir\build.make CMakeFiles/Firmware.elf.dir/HardWare/TMC2209/Driver.cpp.s
+.PHONY : HardWare/TMC2209/Driver.cpp.s
+
+UserAPP/UserAPP.obj: UserAPP/UserAPP.cpp.obj
+.PHONY : UserAPP/UserAPP.obj
+
+# target to build an object file
+UserAPP/UserAPP.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Firmware.elf.dir\build.make CMakeFiles/Firmware.elf.dir/UserAPP/UserAPP.cpp.obj
+.PHONY : UserAPP/UserAPP.cpp.obj
+
+UserAPP/UserAPP.i: UserAPP/UserAPP.cpp.i
+.PHONY : UserAPP/UserAPP.i
+
+# target to preprocess a source file
+UserAPP/UserAPP.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Firmware.elf.dir\build.make CMakeFiles/Firmware.elf.dir/UserAPP/UserAPP.cpp.i
+.PHONY : UserAPP/UserAPP.cpp.i
+
+UserAPP/UserAPP.s: UserAPP/UserAPP.cpp.s
+.PHONY : UserAPP/UserAPP.s
+
+# target to generate assembly for a file
+UserAPP/UserAPP.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Firmware.elf.dir\build.make CMakeFiles/Firmware.elf.dir/UserAPP/UserAPP.cpp.s
+.PHONY : UserAPP/UserAPP.cpp.s
+
 startup/startup_stm32f103x6.obj: startup/startup_stm32f103x6.s.obj
 .PHONY : startup/startup_stm32f103x6.obj
 
@@ -619,6 +811,12 @@ help:
 	@echo ... Core/Src/system_stm32f1xx.obj
 	@echo ... Core/Src/system_stm32f1xx.i
 	@echo ... Core/Src/system_stm32f1xx.s
+	@echo ... Core/Src/usart.obj
+	@echo ... Core/Src/usart.i
+	@echo ... Core/Src/usart.s
+	@echo ... Core/Src/usb.obj
+	@echo ... Core/Src/usb.i
+	@echo ... Core/Src/usb.s
 	@echo ... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.obj
 	@echo ... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.i
 	@echo ... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.s
@@ -643,6 +841,12 @@ help:
 	@echo ... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.obj
 	@echo ... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.i
 	@echo ... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.s
+	@echo ... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.obj
+	@echo ... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.i
+	@echo ... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.s
+	@echo ... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.obj
+	@echo ... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.i
+	@echo ... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.s
 	@echo ... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.obj
 	@echo ... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.i
 	@echo ... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.s
@@ -658,6 +862,18 @@ help:
 	@echo ... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.obj
 	@echo ... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.i
 	@echo ... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.s
+	@echo ... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.obj
+	@echo ... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.i
+	@echo ... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.s
+	@echo ... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.obj
+	@echo ... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.i
+	@echo ... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.s
+	@echo ... HardWare/TMC2209/Driver.obj
+	@echo ... HardWare/TMC2209/Driver.i
+	@echo ... HardWare/TMC2209/Driver.s
+	@echo ... UserAPP/UserAPP.obj
+	@echo ... UserAPP/UserAPP.i
+	@echo ... UserAPP/UserAPP.s
 	@echo ... startup/startup_stm32f103x6.obj
 .PHONY : help
 
