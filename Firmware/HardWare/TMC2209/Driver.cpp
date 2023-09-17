@@ -11,11 +11,11 @@ void TMC2209::serialWrite(uint8_t *data)
     HAL_UART_Transmit(&huart1, data, sizeof(&data), HAL_MAX_DELAY);
 }
 
-uint8_t TMC2209::serialRead(uint8_t *prxdata)
+uint8_t * TMC2209::serialRead()
 {
-    HAL_UART_Receive(&huart1, prxdata, sizeof(read_buffer),HAL_MAX_DELAY);
-    uint8_t buffer[10];
-    buffer = &prxdata;
+    uint8_t *rxbuffer;
+    HAL_UART_Receive(&huart1, rxbuffer, sizeof(rxbuffer), HAL_MAX_DELAY);
+    return rxbuffer;
 }
 
 template<typename Datagram>
@@ -69,50 +69,50 @@ void TMC2209::sendDatagramUnidirectional(Datagram &datagram,
     }
 }
 
-template<typename Datagram>
-void TMC2209::sendDatagramBidirectional(Datagram &datagram, uint8_t datagram_size)
-{
-    uint8_t byte;
-
-    // Wait for the transmission of outgoing serial data to complete
-//    serialFlush();
-
-    // clear the serial receive buffer if necessary
-    while (HAL_UART_GetState(&huart1) == 0)
-    {
-        byte = serialRead();
-    }
-
-    // write datagram
-    for (uint8_t i = 0; i < datagram_size; ++i)
-    {
-        byte = (datagram.bytes >> (i * BITS_PER_BYTE)) & BYTE_MAX_VALUE;
-        serialWrite(byte);
-    }
-
-    // Wait for the transmission of outgoing serial data to complete
-//    serialFlush();
-
-    // wait for bytes sent out on TX line to be echoed on RX line
-    uint32_t echo_delay = 0;
-    while ((serialAvailable() < datagram_size) and
-           (echo_delay < ECHO_DELAY_MAX_MICROSECONDS))
-    {
-        delayMicroseconds(ECHO_DELAY_INC_MICROSECONDS);
-        echo_delay += ECHO_DELAY_INC_MICROSECONDS;
-    }
-
-    if (echo_delay >= ECHO_DELAY_MAX_MICROSECONDS)
-    {
-        return;
-    }
-
-    // clear RX buffer of echo bytes
-    for (uint8_t i = 0; i < datagram_size; ++i)
-    {
-        byte = serialRead();
-    }
-}
+//template<typename Datagram>
+//void TMC2209::sendDatagramBidirectional(Datagram &datagram, uint8_t datagram_size)
+//{
+//    uint8_t byte;
+//
+//    // Wait for the transmission of outgoing serial data to complete
+////    serialFlush();
+//
+//    // clear the serial receive buffer if necessary
+//    while (HAL_UART_GetState(&huart1) == 0)
+//    {
+//        byte = *serialRead();
+//    }
+//
+//    // write datagram
+//    for (uint8_t i = 0; i < datagram_size; ++i)
+//    {
+//        byte = (datagram.bytes >> (i * BITS_PER_BYTE)) & BYTE_MAX_VALUE;
+//        serialWrite(&byte);
+//    }
+//
+//    // Wait for the transmission of outgoing serial data to complete
+////    serialFlush();
+//
+//    // wait for bytes sent out on TX line to be echoed on RX line
+//    uint32_t echo_delay = 0;
+//    while ((serialAvailable() < datagram_size) and
+//           (echo_delay < ECHO_DELAY_MAX_MICROSECONDS))
+//    {
+//        delayMicroseconds(ECHO_DELAY_INC_MICROSECONDS);
+//        echo_delay += ECHO_DELAY_INC_MICROSECONDS;
+//    }
+//
+//    if (echo_delay >= ECHO_DELAY_MAX_MICROSECONDS)
+//    {
+//        return;
+//    }
+//
+//    // clear RX buffer of echo bytes
+//    for (uint8_t i = 0; i < datagram_size; ++i)
+//    {
+//        byte = *serialRead();
+//    }
+//}
 
 
 void TMC2209::write(uint8_t register_address, uint32_t data)
@@ -128,17 +128,16 @@ void TMC2209::write(uint8_t register_address, uint32_t data)
     sendDatagramUnidirectional(write_data, WRITE_READ_REPLY_DATAGRAM_SIZE);
 }
 
-uint32_t TMC2209::read(uint8_t register_address)
-{
-    UARTReadAccessDatagram read_data;
-    read_data.bytes = 0;
-    read_data.sync = SYNC;
-    read_data.slave_address = SERIAL_ADDRESS_0;
-    read_data.register_address = register_address;
-    read_data.rw = RW_READ;
-    read_data.crc = calculateCrc(read_data, READ_REQUEST_DATAGRAM_SIZE);
-
-}
+//uint32_t TMC2209::read(uint8_t register_address)
+//{
+//    UARTReadAccessDatagram read_data;
+//    read_data.bytes = 0;
+//    read_data.sync = SYNC;
+//    read_data.slave_address = SERIAL_ADDRESS_0;
+//    read_data.register_address = register_address;
+//    read_data.rw = RW_READ;
+//    read_data.crc = calculateCrc(read_data, READ_REQUEST_DATAGRAM_SIZE);
+//}
 //TMC2209 tmc2209;
 
 

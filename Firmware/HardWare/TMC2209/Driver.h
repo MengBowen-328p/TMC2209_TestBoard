@@ -23,6 +23,8 @@ public:
     const static uint8_t BYTE_MAX_VALUE = 0xFF;
     const static uint8_t WRITE_READ_REPLY_DATAGRAM_SIZE = 8;
     const static uint8_t READ_REQUEST_DATAGRAM_SIZE = 4;
+    const static uint8_t ADDRESS_GCONF = 0x00;                      //GlobalConfig寄存器地址
+
     enum SerialAddress
     {
         SERIAL_ADDRESS_0 = 0,
@@ -60,8 +62,27 @@ public:
         uint64_t bytes;
     };
 
+    union GlobalConfig                              //全局设定寄存器
+    {
+        struct
+        {
+            uint32_t i_scale_analog : 1;            //第0位:电流参考设置
+            uint32_t internal_rsense : 1;           //第1位:是否启用内部采样电阻
+            uint32_t enable_spread_cycle : 1;       //第2位:是否开启SpreadCycle模式
+            uint32_t shaft : 1;                     //第3位:电机轴方向设定
+            uint32_t index_otpw : 1;                //第4位:OTPW索引
+            uint32_t index_step : 1;                //第5位:步数索引
+            uint32_t pdn_disable : 1;               //第6位:是否关闭PDN
+            uint32_t mstep_reg_select : 1;          //第7位:微步软硬件设置
+            uint32_t multistep_filt : 1;            //第8位:是否开启微步滤波
+            uint32_t test_mode : 1;                 //第9位:测试模式
+            uint32_t reserved : 22;                 //第10-22位:保留
+        };
+        uint32_t bytes;
+    };
+    GlobalConfig global_config_;
+
     void serialWrite(uint8_t *data);
-    uint8_t serialRead(uint8_t *prxdata);
 
     template<typename Datagram>
     uint8_t calculateCrc(Datagram &datagram, uint8_t datagram_size);
@@ -74,9 +95,7 @@ public:
     void sendDatagramUnidirectional(Datagram &datagram, uint8_t datagram_size);
 
 
-    template<typename Datagram>
-    void sendDatagramBidirectional(Datagram &datagram, uint8_t datagram_size);
-
+    uint8_t *serialRead();
 };
 
 #endif
